@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74057581950D474004403E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74057571950D474004403E4 /* Cocoa.framework */; };
+		B74057621950D474004403E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B74057601950D474004403E4 /* InfoPlist.strings */; };
+		B74057641950D474004403E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B74057631950D474004403E4 /* main.m */; };
+		B74057681950D474004403E4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B74057661950D474004403E4 /* Credits.rtf */; };
+		B740576B1950D474004403E4 /* MTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B740576A1950D474004403E4 /* MTAAppDelegate.m */; };
+		B740576E1950D474004403E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B740576C1950D474004403E4 /* MainMenu.xib */; };
+		B74057701950D474004403E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B740576F1950D474004403E4 /* Images.xcassets */; };
+		B74057771950D474004403E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74057761950D474004403E4 /* XCTest.framework */; };
+		B74057781950D474004403E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74057571950D474004403E4 /* Cocoa.framework */; };
+		B74057801950D474004403E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B740577E1950D474004403E4 /* InfoPlist.strings */; };
+		B74057821950D474004403E4 /* MTA_LauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74057811950D474004403E4 /* MTA_LauncherTests.m */; };
+		B74057E31951D4B6004403E4 /* MTAPathFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = B74057E21951D4B5004403E4 /* MTAPathFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B74057791950D474004403E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B740574C1950D474004403E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B74057531950D474004403E4;
+			remoteInfo = "MTA Launcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B74057541950D474004403E4 /* MTA Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTA Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74057571950D474004403E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B740575A1950D474004403E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B740575B1950D474004403E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B740575C1950D474004403E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B740575F1950D474004403E4 /* MTA Launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTA Launcher-Info.plist"; sourceTree = "<group>"; };
+		B74057611950D474004403E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B74057631950D474004403E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B74057651950D474004403E4 /* MTA Launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTA Launcher-Prefix.pch"; sourceTree = "<group>"; };
+		B74057671950D474004403E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B74057691950D474004403E4 /* MTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAAppDelegate.h; sourceTree = "<group>"; };
+		B740576A1950D474004403E4 /* MTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAAppDelegate.m; sourceTree = "<group>"; };
+		B740576D1950D474004403E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B740576F1950D474004403E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B74057751950D474004403E4 /* MTA LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTA LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74057761950D474004403E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B740577D1950D474004403E4 /* MTA LauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTA LauncherTests-Info.plist"; sourceTree = "<group>"; };
+		B740577F1950D474004403E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B74057811950D474004403E4 /* MTA_LauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTA_LauncherTests.m; sourceTree = "<group>"; };
+		B74057E11951D4B5004403E4 /* MTAPathFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAPathFinder.h; sourceTree = "<group>"; };
+		B74057E21951D4B5004403E4 /* MTAPathFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAPathFinder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74057511950D474004403E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74057581950D474004403E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74057721950D474004403E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74057781950D474004403E4 /* Cocoa.framework in Frameworks */,
+				B74057771950D474004403E4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B740574B1950D474004403E4 = {
+			isa = PBXGroup;
+			children = (
+				B740575D1950D474004403E4 /* MTA Launcher */,
+				B740577B1950D474004403E4 /* MTA LauncherTests */,
+				B74057561950D474004403E4 /* Frameworks */,
+				B74057551950D474004403E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B74057551950D474004403E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74057541950D474004403E4 /* MTA Launcher.app */,
+				B74057751950D474004403E4 /* MTA LauncherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74057561950D474004403E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74057571950D474004403E4 /* Cocoa.framework */,
+				B74057761950D474004403E4 /* XCTest.framework */,
+				B74057591950D474004403E4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B74057591950D474004403E4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B740575A1950D474004403E4 /* AppKit.framework */,
+				B740575B1950D474004403E4 /* CoreData.framework */,
+				B740575C1950D474004403E4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B740575D1950D474004403E4 /* MTA Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				B74057691950D474004403E4 /* MTAAppDelegate.h */,
+				B740576A1950D474004403E4 /* MTAAppDelegate.m */,
+				B74057E11951D4B5004403E4 /* MTAPathFinder.h */,
+				B74057E21951D4B5004403E4 /* MTAPathFinder.m */,
+				B740576C1950D474004403E4 /* MainMenu.xib */,
+				B740576F1950D474004403E4 /* Images.xcassets */,
+				B740575E1950D474004403E4 /* Supporting Files */,
+			);
+			path = "MTA Launcher";
+			sourceTree = "<group>";
+		};
+		B740575E1950D474004403E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B740575F1950D474004403E4 /* MTA Launcher-Info.plist */,
+				B74057601950D474004403E4 /* InfoPlist.strings */,
+				B74057631950D474004403E4 /* main.m */,
+				B74057651950D474004403E4 /* MTA Launcher-Prefix.pch */,
+				B74057661950D474004403E4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B740577B1950D474004403E4 /* MTA LauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				B74057811950D474004403E4 /* MTA_LauncherTests.m */,
+				B740577C1950D474004403E4 /* Supporting Files */,
+			);
+			path = "MTA LauncherTests";
+			sourceTree = "<group>";
+		};
+		B740577C1950D474004403E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B740577D1950D474004403E4 /* MTA LauncherTests-Info.plist */,
+				B740577E1950D474004403E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74057531950D474004403E4 /* MTA Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74057851950D474004403E4 /* Build configuration list for PBXNativeTarget "MTA Launcher" */;
+			buildPhases = (
+				B74057501950D474004403E4 /* Sources */,
+				B74057511950D474004403E4 /* Frameworks */,
+				B74057521950D474004403E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTA Launcher";
+			productName = "MTA Launcher";
+			productReference = B74057541950D474004403E4 /* MTA Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B74057741950D474004403E4 /* MTA LauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74057881950D474004403E4 /* Build configuration list for PBXNativeTarget "MTA LauncherTests" */;
+			buildPhases = (
+				B74057711950D474004403E4 /* Sources */,
+				B74057721950D474004403E4 /* Frameworks */,
+				B74057731950D474004403E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B740577A1950D474004403E4 /* PBXTargetDependency */,
+			);
+			name = "MTA LauncherTests";
+			productName = "MTA LauncherTests";
+			productReference = B74057751950D474004403E4 /* MTA LauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B740574C1950D474004403E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = multitheftauto;
+				TargetAttributes = {
+					B74057741950D474004403E4 = {
+						TestTargetID = B74057531950D474004403E4;
+					};
+				};
+			};
+			buildConfigurationList = B740574F1950D474004403E4 /* Build configuration list for PBXProject "MTA Launcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B740574B1950D474004403E4;
+			productRefGroup = B74057551950D474004403E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74057531950D474004403E4 /* MTA Launcher */,
+				B74057741950D474004403E4 /* MTA LauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74057521950D474004403E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74057621950D474004403E4 /* InfoPlist.strings in Resources */,
+				B74057701950D474004403E4 /* Images.xcassets in Resources */,
+				B74057681950D474004403E4 /* Credits.rtf in Resources */,
+				B740576E1950D474004403E4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74057731950D474004403E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74057801950D474004403E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74057501950D474004403E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74057641950D474004403E4 /* main.m in Sources */,
+				B740576B1950D474004403E4 /* MTAAppDelegate.m in Sources */,
+				B74057E31951D4B6004403E4 /* MTAPathFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74057711950D474004403E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74057821950D474004403E4 /* MTA_LauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B740577A1950D474004403E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B74057531950D474004403E4 /* MTA Launcher */;
+			targetProxy = B74057791950D474004403E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B74057601950D474004403E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74057611950D474004403E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B74057661950D474004403E4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74057671950D474004403E4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B740576C1950D474004403E4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B740576D1950D474004403E4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B740577E1950D474004403E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B740577F1950D474004403E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B74057831950D474004403E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B74057841950D474004403E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B74057861950D474004403E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTA Launcher/MTA Launcher-Prefix.pch";
+				INFOPLIST_FILE = "MTA Launcher/MTA Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B74057871950D474004403E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTA Launcher/MTA Launcher-Prefix.pch";
+				INFOPLIST_FILE = "MTA Launcher/MTA Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B74057891950D474004403E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTA Launcher.app/Contents/MacOS/MTA Launcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTA Launcher/MTA Launcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MTA LauncherTests/MTA LauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B740578A1950D474004403E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTA Launcher.app/Contents/MacOS/MTA Launcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTA Launcher/MTA Launcher-Prefix.pch";
+				INFOPLIST_FILE = "MTA LauncherTests/MTA LauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B740574F1950D474004403E4 /* Build configuration list for PBXProject "MTA Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74057831950D474004403E4 /* Debug */,
+				B74057841950D474004403E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74057851950D474004403E4 /* Build configuration list for PBXNativeTarget "MTA Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74057861950D474004403E4 /* Debug */,
+				B74057871950D474004403E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74057881950D474004403E4 /* Build configuration list for PBXNativeTarget "MTA LauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74057891950D474004403E4 /* Debug */,
+				B740578A1950D474004403E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B740574C1950D474004403E4 /* Project object */;
+}
