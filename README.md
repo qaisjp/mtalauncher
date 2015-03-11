@@ -1,3 +1,6 @@
+ I no longer work with OS X (or own a Mac device) so this project is in hiatus for an indefinite period of time, sorry!
+ Especially considering this needs to be rewritten in Swift.
+
 The MTA Launcher for OS X
 =========================
 
